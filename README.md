@@ -1,13 +1,13 @@
-#Root Module
+#Hero Module
 
-The `root` module provides basic styling for the root element.
+The `hero` module provides a class to create large, hero headings.
 
 ## Installation
 
 Install using Bower:
 
-	$ bower --save bare-root
+	$ bower --save bare-hero
 
 Import into project:
 
-	@import "bower_components/bare-root/type.root";
+	@import "bower_components/bare-hero/type.hero";
