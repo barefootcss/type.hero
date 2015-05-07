@@ -1,0 +1,33 @@
+// 
+// Declarations  
+// ========================================================================== 
+
+// 
+// Defaults:
+// 
+
+$bare-hero-font-size:			$bare-fz-xxl * 1.5 !default;
+
+/* 
+   #hero
+   ========================================================================== */
+
+/**
+ * The hero module provides a class to create large, hero headings.
+ */
+
+.#{$bare-ns}hero {
+	@include bareFz($bare-hero-font-size / $bare-text-scale, $bare-fz-m * 2);
+}
+
+/**
+ * @media: Increase the 'font-size'. 
+ */
+
+@media (min-width: bareEm($bare-bp-s)) {
+
+	.#{$bare-ns}hero {
+		@include bareFz($bare-hero-font-size, $bare-fz-m * 2);
+	}
+
+}
